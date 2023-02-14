@@ -12,7 +12,7 @@ function calling(){
 
 
 function password1(){
-   document.getElementById("rectangle-1").textContent=""     // this step clears out previous stored input
+   document.getElementById("rectangle-1").textContent=""     //  clearing previous stored input
    for(let i=0;i<15;i++){
       let number=Math.floor(Math.random()*91)
       document.getElementById("rectangle-1").textContent+=characters[number] 
@@ -22,7 +22,7 @@ function password1(){
 }
 
 function password2(){
-   document.getElementById("rectangle-2").textContent=""    // this step clears out previous stored input
+   document.getElementById("rectangle-2").textContent=""   
    for(let i=0;i<15;i++){
       let number=Math.floor(Math.random()*91)
       document.getElementById("rectangle-2").textContent+=characters[number]
